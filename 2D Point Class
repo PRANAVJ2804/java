@@ -2,19 +2,16 @@ public class MyPoint {
     private int x;
     private int y;
 
-    // Default constructor
     public MyPoint() {
         this.x = 0;
         this.y = 0;
     }
 
-    // Overloaded constructor
     public MyPoint(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    // Set both x and y
     public void setXY(int x, int y) {
         this.x = x;
         this.y = y;
